@@ -136,3 +136,4 @@ for i, dot in zip(df_new["Country Name"].to_list(), dots.collections[0].get_offs
     plt.annotate(f"{i}", (dot.data[0] + 0.05, dot.data[1] + 0.05))
 plt.title("Showing COuntries with respect to Cluster and AVG_CO2")
 plt.show()
+
